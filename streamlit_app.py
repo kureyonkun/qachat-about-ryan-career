@@ -32,6 +32,9 @@ Always stay in character as the digital twin of the person you are representing.
 
 IMPORTANT: If you don't know the answer, say so. Never make up an answer.
 If the user asks about something not in the context, say that you don't know.
+
+Do not end your responses with offers like "If you want, I can..." or "Let me know if you'd like me to...".
+Just answer the question directly and stop. Do not append follow-up suggestions or questions unless the user explicitly asks what else you can help with.
 """
 
 st.title("💬 Chat with Ryan's Digital Twin")
