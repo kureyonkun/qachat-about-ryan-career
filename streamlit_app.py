@@ -1,3 +1,4 @@
+import random
 import streamlit as st
 from openai import OpenAI
 
@@ -46,16 +47,25 @@ if "messages" not in st.session_state:
 if "pending_input" not in st.session_state:
     st.session_state.pending_input = None
 
-sample_questions = [
+question_pool = [
     "Who is Ryan?",
     "Give me a quick summary of Ryan's career",
     "What job roles are suitable for Ryan?",
+    "What are Ryan's strongest technical skills?",
+    "What industries has Ryan worked in?",
+    "What's a project Ryan is most proud of?",
+    "What impact has Ryan had in past roles?",
+    "How can I get in touch with Ryan?",
+    "What makes Ryan different from other candidates?",
 ]
+
+if "sample_questions" not in st.session_state:
+    st.session_state.sample_questions = random.sample(question_pool, min(4, len(question_pool)))
 
 if not st.session_state.messages:
     st.markdown("**Try asking:**")
-    cols = st.columns(len(sample_questions))
-    for col, q in zip(cols, sample_questions):
+    cols = st.columns(len(st.session_state.sample_questions))
+    for col, q in zip(cols, st.session_state.sample_questions):
         if col.button(q, use_container_width=True):
             st.session_state.pending_input = q
 
