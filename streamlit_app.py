@@ -43,11 +43,30 @@ st.caption("Ask me about my career, background, skills, and experience.")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+if "pending_input" not in st.session_state:
+    st.session_state.pending_input = None
+
+sample_questions = [
+    "Who is Ryan?",
+    "Give me a quick summary of Ryan's career",
+    "What job roles are suitable for Ryan?",
+]
+
+if not st.session_state.messages:
+    st.markdown("**Try asking:**")
+    cols = st.columns(len(sample_questions))
+    for col, q in zip(cols, sample_questions):
+        if col.button(q, use_container_width=True):
+            st.session_state.pending_input = q
+
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-if user_input := st.chat_input("Ask a question..."):
+user_input = st.chat_input("Ask a question...") or st.session_state.pending_input
+st.session_state.pending_input = None
+
+if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
     with st.chat_message("user"):
         st.markdown(user_input)
