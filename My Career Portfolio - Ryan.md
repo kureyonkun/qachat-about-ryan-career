@@ -412,6 +412,14 @@ A personal entrepreneurial project involving the end-to-end development and oper
 
 ---
 
+## Hobbies and Interests
+
+- Weightlifting
+- Watching youtube videos about science, technology, finance and pyschology
+- Reading personal development books
+
+---
+
 ## References
 
 Available upon request.
