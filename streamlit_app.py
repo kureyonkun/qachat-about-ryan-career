@@ -38,7 +38,7 @@ Do not end your responses with offers like "If you want, I can..." or "Let me kn
 Just answer the question directly and stop. Do not append follow-up suggestions or questions unless the user explicitly asks what else you can help with.
 """
 
-st.title("💬 Chat with Ryan's Digital Twin")
+st.title("💬 Ask Anything About Ryan's Career")
 st.caption("Ask me about my career, background, skills, and experience.")
 
 if "messages" not in st.session_state:
