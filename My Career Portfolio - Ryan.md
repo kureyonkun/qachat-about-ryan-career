@@ -83,7 +83,7 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 
 **Leadership Initiatives**
 
-- Co-founded and helped design the Aladdin Platform Engineering VP Forum — a structured initiative connecting 200+ VPs across APAC, now in its second year of operation
+- Co-founded and helped design the Aladdin Platform Engineering VP Forum — a structured initiative connecting Platform VPs across APAC, now in its second year of operation
 - Designed the forum's rotating cohort model, where a selected group of 8–10 VPs leads each monthly session — ensuring broad participation, shared ownership, and sustainable continuity beyond the founding team
 - Forum sessions cover leadership alignment with senior management priorities, cross-functional project updates, guest director engagements, and peer networking across APAC locations
 - Continues to participate actively while the initiative runs independently under the rotating cohort structure
