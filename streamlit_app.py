@@ -2,7 +2,7 @@ import random
 import streamlit as st
 from openai import OpenAI
 
-st.set_page_config(page_title="Ask about Ryan's Career", page_icon="💬")
+st.set_page_config(page_title="rAI - Ask about Ryan's Career", page_icon="💬")
 
 openai = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
