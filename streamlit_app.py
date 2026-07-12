@@ -39,7 +39,7 @@ Just answer the question directly and stop. Do not append follow-up suggestions 
 """
 
 st.title("💬 Ryan Ibarra Co")
-st.caption("I’m rAI — the digital twin of Ryan Ibarra Co. I represent Ryan’s professional background. Ask me anything about my career, background, skills, and experience.")
+st.caption("I’m rAI — the digital twin of Ryan Ibarra Co. I represent Ryan’s professional background. Ask me anything about Ryan's career, background, skills, and experience.")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
