@@ -7,7 +7,9 @@
 
 | | |
 |---|---|
+| **Ask Ryan AI** | [tinyurl.com/AskRyanAI](https://tinyurl.com/AskRyanAI) |
 | **Email** | coryanibarra@gmail.com |
+| **Phone (New Zealand)** | 021 08705174 |
 | **Location** | New Zealand *(holds NZ work permit)* |
 | **LinkedIn** | [linkedin.com/in/ryanibarraco](https://www.linkedin.com/in/ryanibarraco) |
 
@@ -19,7 +21,7 @@ A technology leader with over 15 years of experience spanning enterprise platfor
 
 Known for bridging the gap between deep technical expertise and business outcomes — equally at home designing repeatable infrastructure build processes and automation frameworks as presenting architecture overviews to client technology and business stakeholders, including regulatory bodies. Proven track record of delivering platform firsts: including the first-ever AWS deployment for Aladdin, the first full end-to-end automation of a multi-tenant environment build, and a 46% reduction in client environment deployment timelines. Drives automation not as an end in itself, but as a disciplined practice — having lifted process automation rates from 50% to 85% while managing environments that grew from 107 to 200 nodes in complexity.
 
-A people-first leader who builds high-performing distributed teams through structured development, inclusive management practices, and deliberate coaching. Introduced agile delivery methodologies that were subsequently adopted organisation-wide, and co-founded a VP Forum now connecting Platform VP leaders across APAC. Brings a rare combination of technical depth, cross-cultural communication, and multilingual capability — conducting client engagements in English and Japanese across some of Asia's most regulated financial markets including Japan, Taiwan, Singapore, Indonesia, and Korea.
+A people-first leader who builds high-performing distributed teams through structured development, inclusive management practices, and deliberate coaching. Introduced agile delivery methodologies that were subsequently adopted organisation-wide, and co-founded a VP Forum now connecting 200+ senior leaders across APAC. Brings a rare combination of technical depth, cross-cultural communication, and multilingual capability — conducting client engagements in English and Japanese across some of Asia's most regulated financial markets including Japan, Taiwan, Singapore, Indonesia, and Korea.
 
 Currently pursuing a Master of Information Systems while maintaining Chancellor's List academic standing — reflecting a sustained commitment to professional growth that has defined a career built on continuous reinvention, from early roles in telecommunications and QA engineering through to leading AI agent integration initiatives on one of the world's most sophisticated investment management platforms.
 
@@ -68,6 +70,7 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 - Provides regulatory and compliance support for client engagements — working with InfoSec and relevant internal teams to produce documentation required by local financial regulatory bodies
 - Advises clients on infrastructure and operational transformation decisions, including cloud migration strategies and connectivity changes
 - Provides guidance to implementation teams post-contract, supporting smooth client onboarding and stepping in for complex or high-stakes client situations where deeper technical understanding of Aladdin is required
+- Manages the ongoing vendor relationship with Microsoft Azure, coordinating regular discussions on client pipeline growth and technology build-out roadmaps — with particular focus on aligning infrastructure capacity planning to anticipated demand
 
 **People Management**
 
@@ -83,7 +86,7 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 
 **Leadership Initiatives**
 
-- Co-founded and helped design the Aladdin Platform Engineering VP Forum — a structured initiative connecting Platform VPs across APAC, now in its second year of operation
+- Co-founded and helped design the Aladdin Platform Engineering VP Forum — a structured initiative connecting 200+ VPs across APAC, now in its second year of operation
 - Designed the forum's rotating cohort model, where a selected group of 8–10 VPs leads each monthly session — ensuring broad participation, shared ownership, and sustainable continuity beyond the founding team
 - Forum sessions cover leadership alignment with senior management priorities, cross-functional project updates, guest director engagements, and peer networking across APAC locations
 - Continues to participate actively while the initiative runs independently under the rotating cohort structure
@@ -409,14 +412,6 @@ A personal entrepreneurial project involving the end-to-end development and oper
 | English | Fluent |
 | Japanese | Business proficiency (JLPT N2) |
 | Filipino | Fluent |
-
----
-
-## Hobbies and Interests
-
-- Weightlifting
-- Watching youtube videos about science, technology, finance and pyschology
-- Reading personal development books
 
 ---
 
