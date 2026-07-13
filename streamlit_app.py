@@ -87,7 +87,7 @@ with title_col:
 with link_col:
     st.markdown(
         "<div style='padding-top: 2.2rem; text-align: right;'>"
-        "<a href='https://www.linkedin.com/in/ryanibarraco/' target='_blank'>Ryan Co | LinkedIn</a>"
+        "<a href='https://www.linkedin.com/in/ryanibarraco/' target='_blank'>LinkedIn</a>"
         "</div>",
         unsafe_allow_html=True,
     )
