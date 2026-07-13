@@ -110,7 +110,7 @@ question_pool = [
 ]
 
 if "sample_questions" not in st.session_state:
-    st.session_state.sample_questions = random.sample(question_pool, min(4, len(question_pool)))
+    st.session_state.sample_questions = random.sample(question_pool, min(3, len(question_pool)))
 
 if not st.session_state.messages:
     st.markdown("**Try asking:**")
