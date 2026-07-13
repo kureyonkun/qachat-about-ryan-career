@@ -81,16 +81,13 @@ def send_contact_email(name, email, phone, message):
         return False
 
 
-title_col, link_col = st.columns([3, 1])
-with title_col:
-    st.title("🤖 rAI")
-with link_col:
-    st.markdown(
-        "<div style='padding-top: 2.2rem; text-align: right;'>"
-        "<a href='https://www.linkedin.com/in/ryanibarraco/' target='_blank'>LinkedIn</a>"
-        "</div>",
-        unsafe_allow_html=True,
-    )
+st.markdown(
+    "<div style='text-align: right;'>"
+    "<a href='https://www.linkedin.com/in/ryanibarraco/' target='_blank'>Ryan Co | LinkedIn</a>"
+    "</div>",
+    unsafe_allow_html=True,
+)
+st.title("🤖 rAI")
 st.caption("I'm rAI — the digital twin of Ryan Ibarra Co. I represent Ryan's professional background. Ask me anything about Ryan's career, background, skills, and experience.")
 st.caption("💡 Feel free to tell me your name, email, phone number, and/or linkedin profile — the real Ryan will get back to you.")
 
