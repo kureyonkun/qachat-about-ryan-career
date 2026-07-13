@@ -83,7 +83,7 @@ def send_contact_email(name, email, phone, message):
 
 st.title("🤖 rAI")
 st.caption("I'm rAI — the digital twin of Ryan Ibarra Co. I represent Ryan's professional background. Ask me anything about Ryan's career, background, skills, and experience.")
-st.caption("💡 Feel free to tell me your name, email, and/or phone number — the real Ryan will get back to you.")
+st.caption("💡 Feel free to tell me your name, email, phone number, and/or linkedin profile — the real Ryan will get back to you.")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
