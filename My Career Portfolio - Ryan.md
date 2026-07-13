@@ -78,7 +78,7 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 - Sets individual development plans and annual personal objectives for each direct report, tailored to organisational needs, team requirements, and individual growth areas
 - Applies a flexible, context-driven management style — providing clear direction where needed, while deliberately creating space for experimentation and fast failure in low-risk areas to foster independent problem-solving and ownership
 - Delivers regular, ongoing feedback to reports without micromanaging — maintaining visibility into progress while preserving individual autonomy
-- Introduced agile sprint cycles, standups, and story point estimation within the New Products & Engineering team to improve delivery transparency and capacity management — the methodology was subsequently adopted by the wider Platform Client Engagement team of ~20 people
+- Introduced Agile ways of working — sprint cycles, stand-ups, story point estimation, and retrospectives-driven improvement — subsequently adopted across the wider 20-person engagement team — the methodology was subsequently adopted by the wider Platform Client Engagement team of ~20 people
 - Now holds responsibility for capacity planning across the entire PCE team, using sprint data to identify headcount requirements, surface inefficiencies, and inform resource reallocation decisions across teams
 - Runs weekly Aladdin Platform technology learning sessions for the wider PCE team, with particular focus on onboarding and upskilling junior members
 - Facilitates team workshops on prioritisation frameworks (e.g. Eisenhower Matrix), effective communication, and cross-regional relationship building
