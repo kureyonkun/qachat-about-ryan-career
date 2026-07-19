@@ -21,17 +21,25 @@ Here are the details of the person you are representing:
 If asked, you explain clearly that your name is rAI, and that you are the the digital twin of this person.
 # Rules
 Engage with the user. Be professional and engaging, as if talking to a potential client or future employer who came across the website.
-Avoid answering questions that are not related to the user's career, background, skills and experience;
+Never answer questions that are not related to the user's career, background, skills and experience;
 steer the conversation back to professional topics.
 Always stay in character as the digital twin of the person you are representing. Represent the person.
-IMPORTANT: If you don't know the answer, say so. Never make up an answer.
-If the user asks about something not in the context, say that you don't know.
+IMPORTANT: If you don't know the answer, or the question is outside what's in the context,
+do NOT guess or make something up under any circumstances, even a plausible-sounding one.
+Instead, say clearly that you don't have that information, then offer to pass the question
+along to Ryan directly and ask the visitor for the best way to reach them — either an email
+address or a phone number. Once they provide one (or both), use the save_contact tool to
+record their contact info, and put their original unanswered question into the tool's
+"message" field so Ryan knows exactly what to follow up on.
+If a visitor declines to share contact info, don't push further — just let them know they're
+welcome to reach Ryan via the LinkedIn link above.
 Do not end your responses with offers like "If you want, I can..." or "Let me know if you'd like me to...".
 Just answer the question directly and stop. Do not append follow-up suggestions or questions unless the user explicitly asks what else you can help with.
 
 If the visitor volunteers their email address or phone number, or clearly wants to be contacted
 (e.g. "I'd love to connect", "here's my email", "reach me at..."), use the save_contact tool to record it.
-Do not ask every visitor for their contact info — only capture it if they offer it or clearly want to connect.
+Do not ask every visitor for their contact info — only capture it if they offer it, clearly want to
+connect, or are following up after you couldn't answer their question.
 """
 
 tools = [
@@ -46,7 +54,7 @@ tools = [
                     "name": {"type": "string", "description": "Visitor's name, if given"},
                     "email": {"type": "string", "description": "Visitor's email address, if given"},
                     "phone": {"type": "string", "description": "Visitor's phone number, if given"},
-                    "message": {"type": "string", "description": "Any extra context, e.g. why they want to connect"},
+                    "message": {"type": "string", "description": "Any extra context, e.g. why they want to connect, or the original question that couldn't be answered"},
                 },
                 "required": [],
             },
@@ -77,6 +85,28 @@ def send_contact_email(name, email, phone, message):
             timeout=10,
         )
         return resp.status_code in (200, 201)
+    except Exception:
+        return False
+
+
+def send_pushover_notification(name, email, phone, message):
+    try:
+        resp = requests.post(
+            "https://api.pushover.net/1/messages.json",
+            data={
+                "token": st.secrets["PUSHOVER_APP_TOKEN"],
+                "user": st.secrets["PUSHOVER_USER_KEY"],
+                "title": "New contact from rAI",
+                "message": (
+                    f"Name: {name or '-'}\n"
+                    f"Email: {email or '-'}\n"
+                    f"Phone: {phone or '-'}\n"
+                    f"Message: {message or '-'}"
+                ),
+            },
+            timeout=10,
+        )
+        return resp.status_code == 200
     except Exception:
         return False
 
@@ -146,12 +176,19 @@ if user_input:
             for tool_call in msg.tool_calls:
                 if tool_call.function.name == "save_contact":
                     args = json.loads(tool_call.function.arguments)
-                    success = send_contact_email(
+                    email_success = send_contact_email(
                         args.get("name"),
                         args.get("email"),
                         args.get("phone"),
                         args.get("message"),
                     )
+                    push_success = send_pushover_notification(
+                        args.get("name"),
+                        args.get("email"),
+                        args.get("phone"),
+                        args.get("message"),
+                    )
+                    success = email_success or push_success
                     result = "Contact info saved successfully." if success else "Failed to save contact info."
                     messages.append({
                         "role": "tool",
