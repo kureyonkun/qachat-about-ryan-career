@@ -10,20 +10,35 @@
 | **Ask Ryan AI** | [tinyurl.com/AskRyanAI](https://tinyurl.com/AskRyanAI) |
 | **Email** | coryanibarra@gmail.com |
 | **Phone (New Zealand)** | 021 08705174 |
-| **Location** | New Zealand *(holds NZ work permit)* |
+| **Location** | New Zealand *(holds NZ work visa)* |
 | **LinkedIn** | [linkedin.com/in/ryanibarraco](https://www.linkedin.com/in/ryanibarraco) |
 
 ---
 
 ## Professional Summary
 
-A technology leader with over 15 years of experience spanning enterprise platform engineering, cloud infrastructure, network connectivity, and client engagement across global financial services institutions including BlackRock and Bank of America Merrill Lynch. Currently operating at Vice President level within BlackRock's Aladdin Platform — one of the world's most complex and consequential financial technology platforms — leading a globally distributed team while simultaneously serving as a senior technical authority for client-facing engagements across Asia-Pacific, Europe, and the Americas.
+Over 15 years in enterprise platform engineering, cloud infrastructure, network connectivity, and client engagement across global financial services institutions including BlackRock, Bank of America Merrill Lynch, and Deutsche Bank. Currently operating at Vice President level within BlackRock's Aladdin Platform — one of the world's most complex and consequential financial technology platforms — leading a globally distributed team while simultaneously serving as a senior technical authority for client-facing engagements across Asia-Pacific, Europe, and the Americas.
 
-Known for bridging the gap between deep technical expertise and business outcomes — equally at home designing repeatable infrastructure build processes and automation frameworks as presenting architecture overviews to client technology and business stakeholders, including regulatory bodies. Proven track record of delivering platform firsts: including the first-ever AWS deployment for Aladdin, the first full end-to-end automation of a multi-tenant environment build, and a 46% reduction in client environment deployment timelines. Drives automation not as an end in itself, but as a disciplined practice — having lifted process automation rates from 50% to 85% while managing environments that grew from 107 to 200 nodes in complexity.
+Known for bridging the gap between deep technical expertise and business outcomes — equally at home designing repeatable infrastructure build processes and automation frameworks as presenting architecture overviews to client technology and business stakeholders, including regulatory bodies. Proven track record of platform firsts: oversaw delivery of the first-ever AWS build pipeline for Aladdin and the first full end-to-end automation of a multi-tenant environment build, alongside a directly-delivered 46% reduction in client environment deployment timelines. Drives automation not as an end in itself, but as a disciplined practice — having lifted process automation rates from 50% to 85% while managing environments that grew from 107 to 200 nodes in complexity.
 
-A people-first leader who builds high-performing distributed teams through structured development, inclusive management practices, and deliberate coaching. Introduced agile delivery methodologies that were subsequently adopted organisation-wide, and co-founded a VP Forum now connecting 200+ senior leaders across APAC. Brings a rare combination of technical depth, cross-cultural communication, and multilingual capability — conducting client engagements in English and Japanese across some of Asia's most regulated financial markets including Japan, Taiwan, Singapore, Indonesia, and Korea.
+A people-first leader who builds high-performing distributed teams through structured development, inclusive management practices, and deliberate coaching. Introduced agile delivery methodologies that were subsequently adopted across the wider Platform Client Engagement team, and co-founded a VP Forum now connecting Platform leaders across APAC. Brings a rare combination of technical depth, cross-cultural communication, and multilingual capability — conducting client engagements in English and Japanese across some of Asia's most regulated financial markets including Japan, Taiwan, Singapore, Indonesia, and Korea.
 
-Currently pursuing a Master of Information Systems while maintaining Chancellor's List academic standing — reflecting a sustained commitment to professional growth that has defined a career built on continuous reinvention, from early roles in telecommunications and QA engineering through to leading AI agent integration initiatives on one of the world's most sophisticated investment management platforms.
+Currently pursuing a Master of Information Systems while maintaining Chancellor's List academic standing — reflecting a sustained commitment to professional growth that has defined a career built on continuous reinvention, from early roles in telecommunications and QA engineering through to product-owning AI agent integration initiatives on one of the world's most sophisticated investment management platforms.
+
+---
+
+## Possible Target Roles
+
+*Ranked by alignment to experience and validated against active New Zealand market listings (Seek NZ) as of July 2026. Re-evaluated as more experience is captured or on request.*
+
+1. **Platform Engineering Manager / Lead** — direct match to current scope (Gold Environment ownership, build pipeline design, team leadership). Actively hiring at NZ banks (e.g., ASB, Westpac, BNZ platform/SRE roles).
+2. **Technical Program Manager (Cloud/Infrastructure)** — matches oversight-heavy delivery style across multi-team initiatives. Strong NZ demand (Rocket Lab, FNZ, major banks).
+3. **Cloud Delivery Manager** — matches Azure→AWS multi-cloud delivery track record and vendor relationship management.
+4. **Solutions Engineering Lead / Pre-Sales Solutions Engineer (Enterprise SaaS/FinTech)** — matches client-facing architecture presentation and regulatory support experience.
+5. **AI Technical Product Manager/Owner (Applied AI, enterprise)** — leverages real AI product ownership experience without overclaiming hands-on ML engineering. Matching NZ listings exist for this exact title.
+6. **IT Service Delivery Manager** — matches governance, change management, and process-ownership experience.
+7. **DevOps / Automation Engineering Manager** — matches AWX/Ansible/Terraform automation work.
+8. **AI Engineer (Junior/Associate, enterprise)** — a genuine but stretch target; honest positioning leans on MIS coursework, self-directed ML projects, and AI product ownership rather than senior hands-on ML delivery experience.
 
 ---
 
@@ -31,15 +46,16 @@ Currently pursuing a Master of Information Systems while maintaining Chancellor'
 
 ### BlackRock Singapore
 **Vice President — Global Lead, New Products & Engineering, Aladdin Platform Client Engagement**
+*Official HR title: Vice President, Implementation Engineer, Lead Engineer*
 *January 2023 – Present*
-*Alternative titles: Platform Engineering Manager | Head of Platform Engineering | Technical Program Manager | Solutions Engineering Lead | Cloud Delivery Manager*
+*Alternative titles: Platform Engineering Manager | Technical Program Manager | Solutions Engineering Lead | Cloud Delivery Manager*
 
 **About the Role:**
 Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock's proprietary end-to-end investment management SaaS platform, unifying portfolio management, risk analytics, trading, operations, and accounting through a common data language. Serving 200+ institutional and wealth clients — including asset managers, pension funds, insurers, sovereign wealth funds, and banks. Ryan sits within the Platform department, which owns the full technology stack powering Aladdin from infrastructure to application layer, working closely with the Product Engineering department.
 
 **Team Structure:**
 - Directly leads a team of 5 as head of New Products & Engineering: 1 direct report in Atlanta (who manages 2 indirect reports) + 2 direct reports in Edinburgh. Sole Singapore-based member of the team.
-- Also serves as a senior individual contributor within the wider Platform Client Engagement team of ~20 people
+- Also serves as a senior individual contributor within the wider Platform Client Engagement team of ~15 people
 - Reports to: Platform Client Engagement Lead & Product Manager, Managed Environments
 
 ---
@@ -48,25 +64,26 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 
 **New Products & Engineering** *(Sole Lead)*
 
-- Leads the design and creation of repeatable build processes for new Aladdin client instances, environment types, and add-on functionalities — coordinating across database, server, identity engineering, app hosting, network, cloud engineering, and product teams
-- Scopes incoming requests, maps and designs end-to-end processes, creates orchestrated workflows using AWX and Ansible scripts, conducts pilot runs, manages backfilling, and drives full operationalisation
-- Leads engineering optimisation initiatives to automate, streamline, or agentify existing operationalised build processes through collaboration with technology team owners
-- Oversees gap remediation for issues identified in existing operationalised processes
-- Manages a concurrent portfolio of approximately 20 projects of varied size and complexity across the team pf 5 people (managing 3-4 projects hands-on at any given time)
-- Currently acting as product owner (on behalf of manager) for an AI agent initiative designed to sit on top of AWX orchestration — autonomously identifying issues, providing resolutions, and self-healing workflows upon build failures
-- Currently leading the design and delivery of a new build process to deploy Aladdin Platform on AWS, enabling multi-cloud architecture in an environment previously limited to Azure
+- Leads the design and creation of repeatable build pipelines for new Aladdin client instances, environment types, and add-on functionalities — coordinating across database, server, identity engineering, app hosting, network, cloud engineering, and product teams
+- Directs the end-to-end lifecycle for technology integration and new product pipeline initiatives — scoping, process design, orchestrated workflow creation (AWX/Ansible), piloting, backfilling, and operationalisation — primarily through oversight of a direct report (Atlanta-based) who leads execution of the function day-to-day, with hands-on involvement on select projects
+- Drives engineering optimisation initiatives to automate, streamline, or agentify existing operationalised build pipelines — hands-on leadership on major/strategic initiatives, with oversight delegated to another lead for medium-sized initiatives, all in collaboration with technology team owners
+- Oversees gap remediation for issues identified in existing operationalised pipelines — hands-on involvement for major issues, with day-to-day remediation led by a direct report under oversight
+- Manages a concurrent portfolio of projects of varied size and complexity across the team, balancing hands-on involvement on select projects with oversight of the rest
+- Currently acting as product owner (on behalf of manager) for an AI agent initiative designed to sit on top of AWX orchestration — autonomously identifying issues, providing resolutions, and self-healing workflows upon build failures; evaluated Neo4j vs. PostgreSQL/Apache AGE for modelling node-dependency relationships within the agent's workflow design
+- Initiated a project giving a direct report ownership of building an environment build pipeline assistant — automatically summarising outstanding and resolved issues at the end of each day and creating ADO (Azure DevOps) tickets for retrospectives
+- Providing oversight for a project, led by a direct report, to design and deliver a new build process to deploy Aladdin Platform on AWS — enabling multi-cloud architecture in an environment previously limited to Azure
+- Led a Terraform configuration automation project — automating pull request generation for Terraform updates (JSON to YAML conversion), and reviewing Terraform code as part of platform change workflows.
 
 **Gold Environment Ownership**
 
 - Owns and governs the Gold Environment — the master template used as the foundation for building all new Aladdin client environments — ensuring its integrity directly impacts delivery timelines and client contractual obligations
-- Inherited an ad hoc change management process upon taking the role and redesigned it into a structured, governed framework with clearly assigned ownership channels: business/COO office for permissions, Data team for data content, and own team for infrastructure and application layer changes
-- Established secure, approved change processes with mandatory testing and sign-off requirements across all three channels — ensuring all modifications to permissions, data, file systems, and default accounts are properly controlled before propagating to new client environments
+- Built the Gold Environment change management framework from the ground up — as no formal process existed prior — establishing clearly assigned ownership channels (business/COO office for permissions, Data team for data content, own team for infrastructure and application layer changes), with structured procedures requiring testing and sign-off before any modification to permissions, data, file systems, or default accounts is propagated to new client environments
 
-**Platform Client Engagement** *(Senior Individual Contributor — part of wider team of ~20)*
+**Platform Client Engagement** *(Senior Individual Contributor — part of wider team of ~15)*
 
 - Serves as senior technology representative to prospective clients — presenting Aladdin platform architecture, infrastructure design, connectivity options, operating model, and technology stack to business and technology stakeholders
 - Supports business development teams globally, with specialisation in Asia-Pacific (Japan, Taiwan, Indonesia, Singapore, Korea) due to timezone alignment and Japanese language proficiency; also supports European and American business development teams
-- Addressed client data security, compliance, and infrastructure concerns during technology overviews — explaining Aladdin's encryption architecture (data in transit and at rest, key vaulting and rotation), data domicility controls ensuring data transit remains within mandated geographic boundaries, and high availability and resiliency design of the platform architecture — with particular emphasis for regulated and government clients
+- Addressed client data security, compliance, and infrastructure concerns during technology overviews — explaining Aladdin's encryption architecture (data in transit and at rest, key vaulting and rotation), data residency controls ensuring data transit remains within mandated geographic boundaries, and high availability and resiliency design of the platform architecture — with particular emphasis for regulated and government clients
 - Provides regulatory and compliance support for client engagements — working with InfoSec and relevant internal teams to produce documentation required by local financial regulatory bodies
 - Advises clients on infrastructure and operational transformation decisions, including cloud migration strategies and connectivity changes
 - Provides guidance to implementation teams post-contract, supporting smooth client onboarding and stepping in for complex or high-stakes client situations where deeper technical understanding of Aladdin is required
@@ -78,7 +95,7 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 - Sets individual development plans and annual personal objectives for each direct report, tailored to organisational needs, team requirements, and individual growth areas
 - Applies a flexible, context-driven management style — providing clear direction where needed, while deliberately creating space for experimentation and fast failure in low-risk areas to foster independent problem-solving and ownership
 - Delivers regular, ongoing feedback to reports without micromanaging — maintaining visibility into progress while preserving individual autonomy
-- Introduced Agile ways of working — sprint cycles, stand-ups, story point estimation, and retrospectives-driven improvement — subsequently adopted across the wider 20-person engagement team — the methodology was subsequently adopted by the wider Platform Client Engagement team of ~20 people
+- Introduced Agile ways of working — sprint cycles, stand-ups, story point estimation, and retrospectives-driven improvement — subsequently adopted across the wider ~15-person Platform Client Engagement team
 - Now holds responsibility for capacity planning across the entire PCE team, using sprint data to identify headcount requirements, surface inefficiencies, and inform resource reallocation decisions across teams
 - Runs weekly Aladdin Platform technology learning sessions for the wider PCE team, with particular focus on onboarding and upskilling junior members
 - Facilitates team workshops on prioritisation frameworks (e.g. Eisenhower Matrix), effective communication, and cross-regional relationship building
@@ -86,7 +103,7 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 
 **Leadership Initiatives**
 
-- Co-founded and helped design the Aladdin Platform Engineering VP Forum — a structured initiative connecting 200+ VPs across APAC, now in its second year of operation
+- Co-founded and helped design the Aladdin Platform Engineering VP Forum — a structured initiative connecting VPs across APAC, now in its second year of operation
 - Designed the forum's rotating cohort model, where a selected group of 8–10 VPs leads each monthly session — ensuring broad participation, shared ownership, and sustainable continuity beyond the founding team
 - Forum sessions cover leadership alignment with senior management priorities, cross-functional project updates, guest director engagements, and peer networking across APAC locations
 - Continues to participate actively while the initiative runs independently under the rotating cohort structure
@@ -98,7 +115,7 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 - **Taiwan regulatory compliance:** Produced FIPS-standard and cybersecurity incident response documentation in collaboration with the InfoSec team, directly enabling a Taiwan client to obtain regulatory approval from the local financial authority and proceed to contract signing
 - **Automation uplift (50% → 85%):** Drove process automation rate from 50% to 85% by exposing previously hidden manual steps across background teams, enabling targeted automation sprints and re-assignment of work to appropriate owners — achieved despite environment complexity scaling from 107 to 200 nodes
 - **Scoring metrics framework:** Introduced a scoring framework for every environment build, enabling measurable tracking of automation progress and transparent reporting to leadership and stakeholders
-- **First full end-to-end automation of multi-tenant environment:** Guided and supported a direct report in delivering the first-ever complete automation of a multi-tenant Risk environment build — involving 3 teams and 20 nodes — setting a new delivery standard for the platform
+- **First full end-to-end automation of multi-tenant environment:** Provided oversight for a direct report who led the first-ever complete automation of a multi-tenant Risk environment build — involving 3 teams and 20 nodes — personally facilitating buy-in from the other teams involved to enable delivery, setting a new delivery standard for the platform
 - **46% reduction in deployment timelines:** Reduced client environment deployment timelines from 24 to 13 days by streamlining planning-to-implementation handoffs and implementing prescriptive delivery best practices
 - **Doubled build throughput:** Doubled the number of new client environment builds per delivery cycle — from 2 to 4 clients per cycle — through process re-engineering and cross-team optimisation
 - Successfully convinced multiple Japan-based enterprise clients to migrate connectivity from MPLS to cloud-to-cloud architecture, navigating complex stakeholder concerns and technical objections across each engagement
@@ -108,6 +125,7 @@ Aladdin (Asset, Liability, Debt, and Derivative Investment Network) is BlackRock
 
 ### BlackRock Singapore
 **Vice President — Senior Systems Engineer & Global Lead, Connectivity Support**
+*Official HR title: Vice President, Implementation Engineer, Lead Engineer*
 *August 2017 – December 2022*
 *Alternative titles: Network Delivery Manager | Connectivity Solutions Engineer | Client Onboarding Manager | Technical Implementation Lead | Infrastructure Delivery Lead*
 
@@ -124,13 +142,13 @@ Within the same Aladdin Platform department, this role focused on managing and s
 
 **Connectivity Support & Onboarding** *(Global Lead + Senior Systems Engineer IC)*
 
-- Managed connectivity onboarding engagements across multiple global regions including the Americas, Germany, Switzerland, Italy, Hong Kong, and Japan — including government agency clients with strict data domicility and security requirements, designing connectivity solutions that ensured data transit remained within mandated geographic boundaries
+- Managed connectivity onboarding engagements across multiple global regions including the Americas, Germany, Switzerland, Italy, Hong Kong, and Japan — including government agency clients with strict data residency and security requirements, designing connectivity solutions that ensured data transit remained within mandated geographic boundaries
 - Led the design and delivery of connectivity solutions between Aladdin and client technology environments — using MPLS, VPN, and cloud-to-cloud connectivity (Azure IPSEC tunnel between VNETs)
 - Coordinated Unix and network teams during client onboarding to design and deliver connectivity infrastructure — acting as delivery manager rather than hands-on engineer
 - Designed and delivered cloud-to-cloud connectivity solutions enabling enterprise clients to connect to the Aladdin platform backend via AWS and Microsoft Azure — adapting standard high-availability and disaster recovery templates to accommodate client infrastructure constraints while preserving resilience principles
 - Piloted the first-ever migration of a client's Aladdin connectivity from on-premises to cloud-to-cloud architecture on AWS for a Singapore-based client — modernising the connectivity layer and reducing dependency on legacy infrastructure
 - Conducted technical deep-dives and infrastructure design reviews with clients and internal stakeholders, providing guidance on Aladdin connectivity options and cloud architecture
-- Addressed client data security, compliance, and infrastructure concerns during technology overviews — explaining Aladdin's encryption architecture (data in transit and at rest, key vaulting and rotation), data domicility controls ensuring data transit remains within mandated geographic boundaries, and high availability and resiliency design of the platform architecture — with particular emphasis for regulated and government clients
+- Addressed client data security, compliance, and infrastructure concerns during technology overviews — explaining Aladdin's encryption architecture (data in transit and at rest, key vaulting and rotation), data residency controls ensuring data transit remains within mandated geographic boundaries, and high availability and resiliency design of the platform architecture — with particular emphasis for regulated and government clients
 - Provided technology overviews to both prospective and signed clients, explaining Aladdin's connectivity architecture and options to client technology teams
 - Managed non-critical connectivity incidents (e.g. loss of redundancy or resiliency) through direct client engagement, with the objective of restoring connectivity
 - Responded to critical connectivity incidents alongside mission control and incident management teams — advising on resolution strategies to restore client connectivity rapidly
@@ -148,7 +166,7 @@ Within the same Aladdin Platform department, this role focused on managing and s
 
 - Led and managed a globally distributed team of 6 engineers with 2 direct reports
 - Designed and delivered a structured 8-week onboarding training programme for newly hired engineers — weekly sessions covering Aladdin connectivity fundamentals to accelerate time-to-productivity
-- Created a comprehensive 20–30 page operational playbook with 20+ documented processes, enabling new engineers to independently execute tasks from day one of system access
+- Created a comprehensive operational playbook with 20+ documented processes, enabling new engineers to independently execute tasks from day one of system access
 - Provided career development support and technical guidance to 2 direct reports
 - Proactively identified and developed two engineers within the team as future functional leads for client connectivity — one was promoted to Associate the following year as a direct result of the expanded scope and capabilities developed under this succession plan
 
@@ -156,14 +174,14 @@ Within the same Aladdin Platform department, this role focused on managing and s
 
 - Streamlined connectivity support operations by formalising end-to-end workflows into a structured playbook — enabling consistent, repeatable execution across the team
 - Built a client-facing communication automation tool using HTML, JavaScript, and Confluence — replacing ad hoc email writing with templated, validated communications for every issue type, eliminating operational events caused by incorrect client information being sent to the wrong recipient
-- Developed an onboarding project tracking dashboard (HTML, JavaScript, CSS, JSON) providing real-time visibility of 20–30 concurrent client onboarding projects — giving management clear pipeline visibility and enabling proactive capacity planning
+- Developed an onboarding project tracking dashboard (HTML, JavaScript, CSS, JSON) providing real-time visibility of 20–30 concurrent client connectivity onboarding projects — giving management clear pipeline visibility and enabling proactive capacity planning
 - Designed and standardised the Single Sign-On (SSO) onboarding process for new Aladdin clients — creating a structured client-facing document covering SSO federation requirements, technical details, key contacts, and implementation timelines, enabling the technology team to receive complete, actionable information upfront and eliminating back-and-forth during implementation
 
 ---
 
 #### Key Achievement
 
-- **AWS Cloud-to-Cloud Connectivity (First-ever for Aladdin):** Conceptualised, designed, POC'd, piloted, and delivered the first-ever AWS cloud-to-cloud connectivity for Aladdin — spearheaded as the final major project in this role to support a Singapore-based client who could only support AWS infrastructure, directly enabling the business development team to close the deal
+- **AWS Cloud-to-Cloud Connectivity (First-ever for Aladdin):** POC'd, piloted, and delivered the first-ever AWS cloud-to-cloud connectivity for Aladdin — spearheaded as the final major project in this role to support a Singapore-based client who could only support AWS infrastructure, directly enabling the business development team to close the deal
 - **Japan MPLS to Cloud Migration:** Successfully convinced multiple Japan-based enterprise clients to migrate connectivity from MPLS to cloud-to-cloud architecture, navigating complex stakeholder concerns and technical objections across each engagement
 
 ---
@@ -283,6 +301,8 @@ Part-time role undertaken while studying at Yomiuri Institute of Technology — 
 University of the Philippines Open University | 2025 – Present
 - Currently enrolled in a fully remote Master of Information Systems programme
 - Chancellor's List for two consecutive semesters — recognised for near-perfect academic scores across all subjects
+- Achieved a perfect score in the Artificial Intelligence & Machine Learning subject
+- Project-managed the delivery of a university information assistant chatbot — leading a team of Masters students (practising developers and cloud engineers) to deploy a retrieval-augmented generation (RAG) solution using the OpenAI API on AWS EC2 and Lambda; delivered successfully with outstanding marks; designed a function-tooling architecture in place of a vector store to work within the university's limited budget — an engineering trade-off that delivered the required functionality at materially lower infrastructure cost
 
 **Bachelor of Science in Information Technology** *(Bridging Programme)*
 Polytechnic University of the Philippines | 2013 – 2014
@@ -305,10 +325,17 @@ Bunka International Language School, Japan | 2003 – 2004
 - Orchestration & Automation: AWX, Ansible
 - Networking: MPLS, VPN, Cloud-to-Cloud Connectivity, IPSEC, TCP/IP
 - Market Data Systems: Bloomberg, Reuters, ITRS Geneos
-- Web & Scripting: HTML, JavaScript, CSS, JSON, C#, SQL
+- Web & Scripting: Python, HTML, JavaScript, CSS, JSON, C#, SQL
 - CI/CD: Azure DevOps, Git Workflow
 - Operating Systems: Windows Server, Unix/Linux
-- Productivity & Collaboration: Confluence, Jira, ServiceNow
+- Productivity & Collaboration: Confluence, Jira, ServiceNow, SharePoint
+
+**AI / Applied Machine Learning**
+- Generative AI: OpenAI API integration, Retrieval-Augmented Generation (RAG), Embeddings & Vector Stores, Prompt Engineering, Function/Tool-Calling design
+- AI/ML Foundations: Supervised & unsupervised learning, regression/classification, generative AI methods, responsible AI (fairness, transparency, privacy, human-in-the-loop)
+- AI Tooling: Claude Code, Microsoft Copilot Agents
+- Cloud ML: exposure to AWS Bedrock and SageMaker
+- Databases: PostgreSQL, Graph Databases (Neo4j, Apache AGE), OpenSearch
 
 **Domain Expertise**
 - Enterprise SaaS Platform Delivery
@@ -319,7 +346,7 @@ Bunka International Language School, Japan | 2003 – 2004
 - Agile Delivery & Sprint Management
 - Process Automation & Engineering
 - Incident & Change Management
-- IT Service Delivery & Operations
+- IT Service Delivery & Operations, ITIL
 - Gold Environment Governance & Change Control
 
 **Leadership & Management**
@@ -344,6 +371,7 @@ Bunka International Language School, Japan | 2003 – 2004
 
 | Certification | Issuing Body | Date |
 |---|---|---|
+| AWS Certified AI Practitioner (AIF-C01) | AWS | 2026 |
 | Microsoft Certified: Azure Fundamentals (AZ-900) | Microsoft | 2020 |
 | AWS Certified: AWS Certified Cloud Practitioner (CLF-C02) | AWS | 2026 |
 | Microsoft Certified Systems Administrator (MCSA) — Windows Server 2003 | Microsoft | March 2010 |
@@ -356,16 +384,29 @@ Bunka International Language School, Japan | 2003 – 2004
 
 ## Entrepreneurial Ventures
 
-### Unlad — Co-founder (Business & Infrastructure)
+### Unlad — Co-Founder & Advisor
 *Philippines (Remote) | May 2026 – Present*
 *Website: [unlad-ai.com](https://unlad-ai.com)*
 
 Unlad (Filipino for "progress") is a digitalisation, optimisation, and AI integration consultancy helping Filipino businesses build practical, operational systems — not just strategies. Co-founded by three partners, Unlad's mission is to close the digitalisation and AI adoption gap in the Philippines by delivering solutions that teams actually use day to day.
 
-- Co-founded Unlad with two partners, taking ownership of business development and infrastructure — bringing enterprise-grade thinking to small and mid-sized Filipino businesses
-- Leads the business and infrastructure function, ensuring that solutions designed are practical, scalable, and built to survive operational handover
-- Currently building the consultancy's service portfolio and client pipeline, drawing on over two decades of enterprise infrastructure, cloud delivery, and process automation experience at BlackRock and Bank of America Merrill Lynch
+- Co-founded Unlad with two partners, originally taking ownership of business development and infrastructure — bringing enterprise-grade thinking to small and mid-sized Filipino businesses
+- Now serves in an advisory capacity to the consultancy
+- Designed and built the AI assistant featured on the consultancy's website (unlad-ai.com)
+- Built a document-summarisation tool for the consultancy, generating executive summaries of business documents
 - Motivated by a personal mission to accelerate digitalisation and AI adoption in the Philippines — a market where both remain significantly underleveraged
+
+---
+
+### Ask Ryan AI — Personal AI Career Agent (Personal Project)
+*Website: [tinyurl.com/AskRyanAI](https://tinyurl.com/AskRyanAI)*
+
+A self-built, Python-based conversational AI agent that represents Ryan's career background to site visitors — going beyond simple Q&A into a working lead-capture and notification pipeline.
+
+- Built the agent end-to-end in Python, designing it to answer visitor questions about his professional background and career
+- Used Natural Language Processing (NLP) to detect and extract visitor contact details (name, email, phone number) from natural conversation, rather than requiring a form
+- Built an automated email notification pipeline that sends Ryan a direct email whenever a visitor's contact details are captured, enabling him to follow up personally
+- Self-directed personal project demonstrating hands-on, practical application of conversational AI and NLP outside of his day-to-day platform engineering role
 
 ---
 
@@ -392,7 +433,9 @@ A personal entrepreneurial project involving the end-to-end development and oper
 
 ## Awards & Recognition
 
-*See individual role achievements and Education section for honours and recognition.*
+**BlackRock Company Hackathon — Regional Finalist:** Led business-case and storytelling framing for an Agent Orchestration solution pitch, translating technical architecture into a case for business adoption
+
+*See also individual role achievements and Education section for further honours and recognition.*
 
 ---
 
@@ -400,6 +443,7 @@ A personal entrepreneurial project involving the end-to-end development and oper
 
 | Course / Programme | Provider | Date |
 |---|---|---|
+| Applied Machine Learning — Self-Directed Practice (customer churn classification pipeline; hourly demand-forecasting regression pipeline; Python/scikit-learn) | Self-directed | 2026 |
 | Red Hat RH124 Linux System Administration I | Red Hat / MicroGenesis Business Systems | November 2015 |
 | SAI ASEC Java Programming I & II | Sun Microsystems | February 2006 |
 
@@ -417,7 +461,12 @@ A personal entrepreneurial project involving the end-to-end development and oper
 
 ## References
 
-Available upon request.
+**Julie Showers**
+Platform Client Engagement Lead & Product Manager, Managed Environments — BlackRock
+Email: Julie.showers@blackrock.com
+*(Direct manager)*
+
+Additional references available upon request.
 
 ---
 
